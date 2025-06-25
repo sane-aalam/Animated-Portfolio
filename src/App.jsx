@@ -1,9 +1,16 @@
 import './App.css'
+import About from './Componets/About/About.jsx'
+import Footer from './Componets/Footer/Footer.jsx'
+import Home from './Componets/Home/Home.jsx'
+import Nav from './Componets/Navbar/Nav.jsx'
 
 function App() {
   return(
     <div>
-      Animated PortFolio Website - Dynamic Animation Color
+      <Nav/>
+      <Home/>
+      <About/>
+      <Footer/>
     </div>
   )
 }

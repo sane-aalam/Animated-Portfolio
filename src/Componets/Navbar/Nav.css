@@ -1,0 +1,26 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1{
+    font-size: 30px;
+    background: linear-gradient(rgb(66, 180, 205));
+    background-clip: text;
+    color: transparent;
+    margin-left: 10px;
+    border: 2px solid red;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+
+ul li{
+    list-style-type: none;
+}
